@@ -4,8 +4,7 @@
 from models.base_model import BaseModel
 
 
-class City(BaseModel):
-    """This Class is for managing city objects"""
+class State(BaseModel):
+    """This class is for managing state objects"""
 
-    state_id = ""
     name = ""
